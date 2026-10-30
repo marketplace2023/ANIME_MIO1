@@ -3,6 +3,7 @@ beautifulsoup4
 cloudscraper
 fake-useragent
 Flask
+flask-cors
 thefuzz
 jsonschema
 pandas

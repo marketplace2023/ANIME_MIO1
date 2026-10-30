@@ -10,6 +10,7 @@ dependencies = [
     "cloudscraper>=1.2.71",
     "fake-useragent>=1.5.1",
     "flask>=3.0.3",
+    "flask-cors>=5.0.0",
     "thefuzz>=0.22.1",
     "jsonschema>=4.22.0",
     "pandas>=2.2.2",

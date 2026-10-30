@@ -19,6 +19,7 @@ from flask import (
     request,
     send_from_directory,  # type: ignore
 )
+from flask_cors import CORS
 from werkzeug.wrappers import Response as wzResponse
 
 try:
@@ -39,6 +40,7 @@ except ImportError:
     )
 
 app = Flask(__name__)
+CORS(app)
 
 runtime = time()
 
